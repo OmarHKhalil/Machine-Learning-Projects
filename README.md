@@ -1,0 +1,1 @@
+A collection of hands-on Machine Learning training projects focused on building technical skills. This repository serves as a learning environment to practice core Machine Learning concepts, from data preprocessing to model building, training, and evaluation.
