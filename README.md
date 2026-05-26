@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning Projects Collection
 
 ## Overview
@@ -43,3 +44,6 @@ This repository contains a curated collection of machine learning case studies i
 - Many notebooks are educational and exploratory, designed to demonstrate common ML workflows.
 - Several projects include multiple notebooks for model comparison.
 - Check each project README for dataset requirements and key performance metrics.
+=======
+A collection of hands-on Machine Learning training projects focused on building technical skills. This repository serves as a learning environment to practice core Machine Learning concepts, from data preprocessing to model building, training, and evaluation.
+>>>>>>> bee6413c293b09984a80c86f79764e8b4ae8fac8
