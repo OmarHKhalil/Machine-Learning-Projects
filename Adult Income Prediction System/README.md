@@ -63,7 +63,7 @@ Adult Income Prediction System/
 ![Confusion Matrix KNN](images/Confusion_Matrix_KNN(K=4).png)
 
 #### Error Rate Analysis
-![Error Rate vs K Value](Error_Rate_KValue.png)
+![Error Rate vs K Value](ErrorRateKValue.png)
 *Figure: Analyzing the optimal K value to minimize error rate.*
 
 ## Key Features
