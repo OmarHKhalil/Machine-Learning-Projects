@@ -445,7 +445,7 @@ For questions about this project or machine learning in general, feel free to re
 
 ---
 
-**Author:** Omar Hafez Khalil
+**Author**: Omar Hafez Khalil
 **Last Updated**: June 2026  
 **Version**: 1.0  
 **Status**: Complete & Ready for Portfolio
