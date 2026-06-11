@@ -1,71 +1,104 @@
 # Unsupervised Learning and Recommendations
 
-## Overview
+## Project Overview
 
-This tutorial notebook applies unsupervised learning techniques to the Iris dataset. It is designed to teach clustering and dimensionality reduction.
+This project is a training notebook on unsupervised machine learning and recommendation-style data exploration. It demonstrates how to discover structure in unlabeled data using clustering and visualization techniques with Python and scikit-learn.
 
-الهدف من هذا الـ notebook هو فهم “ماذا نعرف بدون تسميات” عبر التعلم غير المُشرف: أي كيف يمكن استخراج بنية البيانات (clusters) وتصورها حتى عندما لا نملك labels جاهزة. تم بناؤه كتعليمي يربط بين خطوات مثل `MinMaxScaler` و`KMeans/DBSCAN` ثم تقليل الأبعاد بـ `PCA` و`t-SNE`. القيمة المضافة هي تعليمك ليس فقط تشغيل الخوارزمية، بل اختيار معلماتها وفهم الفرق بين الأساليب عندما تختلف طبيعة البيانات.
+The notebook uses the Iris dataset and explores:
 
-## Summary Table
+- clustering algorithms: `KMeans`, `DBSCAN`, and hierarchical clustering,
+- dimensionality reduction: `PCA` and `t-SNE`,
+- feature scaling with `MinMaxScaler`,
+- cluster quality evaluation with purity, NMI, ARI, and silhouette score.
 
-| Dataset      | Model          | Key Result                                   |
-| ------------ | -------------- | -------------------------------------------- |
-| Iris dataset | `KMeans`       | Clustered iris samples into groups.          |
-| Iris dataset | `DBSCAN`       | Demonstrated density-based clustering.       |
-| Iris dataset | `PCA`          | Reduced dimensionality for visualization.    |
-| Iris dataset | `TSNE`         | Visualized cluster structure in 2D.          |
-| Iris dataset | `MinMaxScaler` | Scaled numeric features prior to clustering. |
+## Notebook Contents
 
-## Approach
+The notebook covers the following sections:
 
-- Scale numeric features with MinMaxScaler.
-- Apply KMeans and DBSCAN clustering.
-- Use PCA and t-SNE for dimensionality reduction and visualization.
+1. **Introduction to Unsupervised Learning**
+   - Explains unsupervised learning and why it matters.
+   - Places clustering and dimensionality reduction within the ML workflow.
+2. **Iris Dataset Exploration**
+   - Loads the Iris dataset from `seaborn`.
+   - Visualizes the data using scatter plots.
+3. **Data Preprocessing**
+   - Scales numerical features using `MinMaxScaler`.
+4. **KMeans Clustering**
+   - Fits `KMeans` with 3 clusters.
+   - Examines cluster centers and predictions.
+   - Uses inertia and the elbow plot to choose the number of clusters.
+5. **Cluster Evaluation**
+   - Computes purity score, normalized mutual information (NMI), adjusted Rand index (ARI), and silhouette score.
+6. **DBSCAN Clustering**
+   - Demonstrates density-based clustering and noise detection.
+7. **Hierarchical Clustering**
+   - Introduces hierarchical clustering concepts and provides an exercise for implementation.
+8. **Dimensionality Reduction**
+   - Applies `PCA` to reduce Iris to 2 dimensions.
+   - Uses `t-SNE` to visualize non-linear structure.
 
-## Project Structure
+## Data and Tools
+
+- Dataset: Iris flower dataset (`sepal_length`, `sepal_width`, `petal_length`, `petal_width`, and species labels).
+- Libraries:
+  - `numpy`
+  - `pandas`
+  - `seaborn`
+  - `matplotlib`
+  - `scikit-learn`
+  - `jupyter`
+
+## How to Run
+
+Open the notebook in Jupyter and run the cells sequentially:
+
+```bash
+jupyter notebook "Unsupervised_Learning&Recommendations.ipynb"
+```
+
+## Installation
+
+This folder contains a `requirements.txt` file that references the shared dependency file in the repository root. From the repository root, install required packages with:
+
+```bash
+pip install -r requirements.txt
+```
+
+If running the notebook independently, install the main packages directly:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+```
+
+## Repository Structure
 
 ```
 Unsupervised Learning and Recommendations/
-└── Unsupervised_Learning&Recommendations.ipynb
+├── README.md
+├── requirements.txt
+├── Unsupervised_Learning&Recommendations.ipynb
+└── images/
+    ├── hierarchy.gif
+    ├── intro.png
+    └── kmeans_flow.png
 ```
 
-## Notes
+## Included Images
 
-This notebook is an educational resource on unsupervised learning and cluster visualization.
+The following images are included in the `images/` folder for documentation and visual explanation:
 
-## Model Results
+- ![Project cover](images/intro.png)
+- ![KMeans clustering illustration](images/kmeans_flow.png)
+- ![Hierarchical clustering animation](images/hierarchy.gif)
 
-| Model / Notebook                                         | Key metrics (excerpt)                                                                           |
-| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `KMeans` (`Unsupervised_Learning&Recommendations.ipynb`) | Notebook config: `n_clusters=8` shown in init; no explicit numeric evaluation metrics extracted |
-| `PCA` / `TSNE`                                           | Used for visualization; no numeric metrics extracted                                            |
- 
-## Key Features
-- استخدام تقنيات: `MinMaxScaler` لتوحيد نطاق الميزات، ثم `KMeans` و`DBSCAN` لاكتشاف clusters، بالإضافة إلى `PCA` و`t-SNE` لتصور الهيكل غير الخطي.
-- دقة/جودة الأداء: في التعلم غير الموجه لا توجد Accuracy/F1 تقليدية؛ التقييم هنا يعتمد على جودة التجميع بصرياً ومعاني clusters (وقد يظهر Silhouette score داخل notebook حسب الإعدادات).
-- تكامل خارجي: لا يعتمد على خدمات مثل Gemini API؛ يستخدم مجموعة `Iris` المتاحة عبر `scikit-learn`.
+## Key Takeaways
 
-## Requirements / Installation
-- Python: `3.9+`
-- التثبيت:
-  `pip install -r requirements.txt`
-- البيانات: يستخدم `sklearn.datasets.load_iris` (لا تحتاج CSV خارجية).
+- `KMeans` is useful for partitioning data into a fixed number of clusters.
+- `DBSCAN` identifies clusters based on density and can detect outliers.
+- `PCA` reduces dimensionality by projecting data onto principal components.
+- `t-SNE` visualizes high-dimensional structure in 2D, especially for non-linear patterns.
+- In unsupervised learning, model evaluation often relies on cluster quality metrics and visual inspection.
 
-## Workflow / Pipeline
-1. تحميل بيانات Iris.
-2. Scale للميزات باستخدام MinMaxScaler.
-3. تطبيق KMeans/DBSCAN لاستخراج مجموعات (clusters).
-4. تقليل الأبعاد بـ PCA ثم تصور بـ t-SNE.
+## Author
 
-## Results / Metrics
-- Clustering quality: `n_clusters=8` لـ KMeans (حسب config في notebook).
-- Silhouette / مقاييس رقمية: غير مستخرجة نصياً من README، لكن قد تكون مطروحة داخل notebook.
-- Confusion Matrix: غير مطبّقة (تعلم غير موجه).
-
-## Usage
-1. افتح `Unsupervised_Learning&Recommendations.ipynb` في Jupyter:
-   `jupyter notebook "Unsupervised_Learning&Recommendations.ipynb"`
-2. شغّل الخلايا بالترتيب.
-
-## Authors / Credits
-- Contributors: e-Machine-Learning-Projects (لا توجد أسماء محددة داخل notebooks/README).
+Omar Hafez Khalil
