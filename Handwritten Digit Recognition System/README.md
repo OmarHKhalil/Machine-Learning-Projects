@@ -1,4 +1,3 @@
-
 # Handwritten Digit Recognition System
 
 ## Overview
@@ -67,6 +66,8 @@ The project is a practical introduction to digit classification, PCA dimensional
 `jupyter notebook "load_digits_TSNE.ipynb"`
 2. Run the cells sequentially.
 
-## Authors / Credits
+## Author
 
-* **Contributors:** Omar Hafez Khalil
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

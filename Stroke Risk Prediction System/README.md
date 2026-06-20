@@ -7,6 +7,7 @@ A comprehensive machine learning project that predicts stroke risk based on medi
 ## 🎯 Project Objectives
 
 This project serves as a practical educational example of:
+
 - **Data Preprocessing:** Handling missing values, outlier detection and removal
 - **Feature Engineering:** Categorical encoding, feature scaling, and normalization
 - **Model Development:** Training and hyperparameter tuning of classification models
@@ -25,26 +26,31 @@ This project serves as a practical educational example of:
 ## 🔄 Project Workflow
 
 ### 1. **Data Exploration**
+
 - Load and inspect the dataset
 - Analyze data types and shapes
 - Identify missing values
 
 ### 2. **Data Preprocessing**
+
 - **Missing Value Handling:** Fill missing BMI values using mean imputation
 - **Outlier Detection:** Use box plots and 2-sigma method to identify outliers
 - **Outlier Removal:** Remove age outliers beyond 2 standard deviations
 - **Duplicate Removal:** Eliminate duplicate records
 
 ### 3. **Feature Engineering**
+
 - **Label Encoding:** Encode categorical variables (Gender, Ever Married, Residence Type)
 - **One-Hot Encoding:** Convert Smoking Status to dummy variables
 - **Feature Selection:** Remove non-predictive columns (ID, Work Type)
 
 ### 4. **Feature Scaling**
+
 - Apply **MinMaxScaler** to normalize all features to [0, 1] range
 - Ensures all features contribute equally to model training
 
 ### 5. **Exploratory Analysis**
+
 - Generate correlation matrix heatmap
 - Analyze feature relationships with target variable
 - Visualize class distribution
@@ -52,11 +58,13 @@ This project serves as a practical educational example of:
 ### 6. **Model Development**
 
 #### K-Nearest Neighbors (KNN) Classifier
+
 - Train models with different k values (k=1, 3, 5, ..., 19)
 - Perform error rate analysis to find optimal k value
 - Best performance at **k=3**
 
 #### Train-Test Split
+
 - 80% training data, 20% testing data
 - Stratified split to maintain class distribution
 
@@ -65,10 +73,12 @@ This project serves as a practical educational example of:
 The dataset suffers from **class imbalance** (more stroke-free cases than stroke cases). Two techniques are implemented:
 
 #### a) **Random Over-Sampling**
+
 - Randomly duplicate minority class samples
 - Balance class distribution before training
 
 #### b) **SMOTE (Synthetic Minority Over-sampling Technique)**
+
 - Generate synthetic samples for minority class
 - More sophisticated than random over-sampling
 - Better prevents overfitting
@@ -76,6 +86,7 @@ The dataset suffers from **class imbalance** (more stroke-free cases than stroke
 ### 8. **Model Evaluation**
 
 Performance metrics include:
+
 - **Confusion Matrix:** True Positives, True Negatives, False Positives, False Negatives
 - **Classification Report:** Precision, Recall, F1-Score for each class
 - **Accuracy:** Overall correctness of predictions
@@ -84,13 +95,13 @@ Performance metrics include:
 
 ## 📈 Key Results
 
-| Metric | Value |
-|--------|-------|
-| **Best K Value** | 3 |
-| **Accuracy (KNN, k=3)** | ~95-96% |
-| **Model Type** | K-Nearest Neighbors Classifier |
-| **Preprocessing** | MinMaxScaler Normalization |
-| **Class Balancing** | SMOTE & Random Over-Sampling |
+| Metric                  | Value                          |
+| ----------------------- | ------------------------------ |
+| **Best K Value**        | 3                              |
+| **Accuracy (KNN, k=3)** | ~95-96%                        |
+| **Model Type**          | K-Nearest Neighbors Classifier |
+| **Preprocessing**       | MinMaxScaler Normalization     |
+| **Class Balancing**     | SMOTE & Random Over-Sampling   |
 
 ## 🛠️ Technologies Used
 
@@ -115,17 +126,20 @@ Stroke Risk Prediction System/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.9 or higher
 - Jupyter Notebook or JupyterLab
 
 ### Installation
 
 1. **Clone or download the project**
+
    ```bash
    cd "Stroke Risk Prediction System"
    ```
 
 2. **Create a virtual environment (optional but recommended)**
+
    ```bash
    python -m venv venv
    venv\Scripts\activate  # On Windows
@@ -133,6 +147,7 @@ Stroke Risk Prediction System/
    ```
 
 3. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -194,6 +209,7 @@ After exploring this project, you will understand:
 ## 📧 Questions & Support
 
 For questions about the implementation or methodology, refer to:
+
 - Code comments in the Jupyter notebook
 - Scikit-learn and imbalanced-learn official documentation
 - Stack Overflow for common machine learning questions
@@ -201,6 +217,12 @@ For questions about the implementation or methodology, refer to:
 ## 📜 License
 
 This project is provided for educational purposes. Feel free to use, modify, and distribute as needed for learning.
+
+## Author
+
+- **Developed by:** Omar Hafez Khalil
+- **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+- **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)
 
 ---
 

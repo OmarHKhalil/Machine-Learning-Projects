@@ -1,7 +1,3 @@
-Here is the translation of your report into English, maintaining your professional structure:
-
----
-
 # Diamond Price Predictor
 
 ## Overview
@@ -104,6 +100,8 @@ This project highlights regression modeling and categorical preprocessing for di
 1. Open the notebooks in Jupyter: `jupyter notebook "Diamond_Price_Predictor_DT.ipynb"`
 2. Run cells sequentially.
 
-## Authors / Credits
+## Author
 
-* **Contributors:** Omar Hafez Khalil
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

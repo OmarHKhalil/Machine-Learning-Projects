@@ -1,3 +1,8 @@
-# Project dependencies
-# This file reuses the shared requirements from the repo root.
--r ../requirements.txt
+numpy==1.26.4
+pandas==3.0.3
+scikit-learn==1.9.0
+matplotlib==3.8.4
+seaborn==0.13.2
+opendatasets==0.1.22
+jupyter==1.0.0
+joblib==1.4.2

@@ -51,6 +51,8 @@ This notebook is designed as a learning exercise to master NumPy and pandas fund
 `jupyter notebook "Course np & pd.ipynb"`
 2. Execute the cells sequentially.
 
-## Authors / Credits
+## Author
 
-* **Author:** Omar Hafez Khalil
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

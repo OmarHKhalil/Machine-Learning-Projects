@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Machine Learning Projects Collection
 
 ## Overview
@@ -46,4 +45,9 @@ This repository contains a curated collection of machine learning case studies i
 - Check each project README for dataset requirements and key performance metrics.
 =======
 A collection of hands-on Machine Learning training projects focused on building technical skills. This repository serves as a learning environment to practice core Machine Learning concepts, from data preprocessing to model building, training, and evaluation.
->>>>>>> bee6413c293b09984a80c86f79764e8b4ae8fac8
+
+## Author
+
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

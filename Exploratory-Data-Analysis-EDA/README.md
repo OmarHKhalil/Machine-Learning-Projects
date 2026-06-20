@@ -1,7 +1,3 @@
-هذه ترجمة كاملة واحترافية لتقرير مشروعك إلى اللغة الإنجليزية، مع الحفاظ على التنسيق التقني:
-
----
-
 # Exploratory Data Analysis with Matplotlib & Seaborn
 
 ## Overview
@@ -68,6 +64,8 @@ The notebook is an EDA-focused practice resource for understanding dataset patte
 `jupyter notebook "Matplotlib & Seaborn.ipynb"`
 2. Run the cells sequentially.
 
-## Authors / Credits
+## Author
 
-**Omar Hafez Khalil**
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

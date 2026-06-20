@@ -360,7 +360,8 @@ This notebook combines supervised classification with unsupervised clustering to
 
 ---
 
-# Authors / Credits
+## Author
 
-* Contributors: Omar Hafez Khalil
-* Dataset: Bank Marketing Dataset (`bank-full.csv`)
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

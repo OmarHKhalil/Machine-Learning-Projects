@@ -219,9 +219,13 @@ This project demonstrates core ML concepts:
 - When and why to apply **feature scaling** (interpretability vs. prediction)
 - How to structure a **full ML pipeline** for classification with proper data splits and persistence
 
-## Authors / Credits
+## Credits
 
-- **Author:** Omar Hafez Khalil
 - **Dataset:** [Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance) by Mirae Choi
 - **Weather dataset:** [Weather Dataset (Rattle Package)](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package)
-- **Course context:** Part of the [Machine Learning Projects Collection](../README.md)
+
+## Author
+
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

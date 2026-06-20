@@ -90,6 +90,8 @@ Bank Campaign Success Predictor/
 `jupyter notebook "bank_marketing_dataset.ipynb"`
 2. Run cells sequentially.
 
-## Authors / Credits
+## Author
 
-* Contributors: Omar Hafez Khalil
+* **Developed by:** Omar Hafez Khalil
+* **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+* **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

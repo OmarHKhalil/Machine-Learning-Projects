@@ -101,4 +101,6 @@ The following images are included in the `images/` folder for documentation and 
 
 ## Author
 
-Omar Hafez Khalil
+- **Developed by:** Omar Hafez Khalil
+- **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+- **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)

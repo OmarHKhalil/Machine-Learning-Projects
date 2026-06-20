@@ -441,9 +441,11 @@ Each model cell produces:
 
 ---
 
-## 📄 Author
+## Author
 
-## Omar Hafez Khalil
+- **Developed by:** Omar Hafez Khalil
+- **GitHub:** [OmarHKhalil](https://github.com/OmarHKhalil)
+- **LinkedIn:** [Omar Khalil](https://www.linkedin.com/in/omar-khalil-55a674281)
 
 **Last Updated**: June 2026  
 **Status**: Completed ✓
