@@ -68,10 +68,6 @@ Promotions lift sales on most weekdays; Sunday patterns differ because many stor
 
 Numeric features such as `Promo`, `Customers`, and engineered competition/promo duration columns show measurable correlation with `Sales`.
 
-![Sales by month, year, and promo](images/sales_by_month_year_promo.png)
-
-Monthly sales vary by year and promotion activity, highlighting the need for calendar and promo features in the model.
-
 ## Approach
 
 ### 1. Data loading
